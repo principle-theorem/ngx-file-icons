@@ -20,6 +20,10 @@ function cloneIcons() {
         .map(icon => {
           const iconLibIconSetFolder = path.resolve(libIconSetFolder, icon);
           const iconDistIconSetFolder = path.resolve(distIconSetFolder, icon);
+
+          if (!fs.existsSync(libIconSetFolder)) {
+            fs.mkdirSync(libIconSetFolder, {recursive: true});
+          }
           fs.copyFileSync(iconDistIconSetFolder, iconLibIconSetFolder);
         });
     });

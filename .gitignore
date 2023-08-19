@@ -2,7 +2,6 @@
 
 # compiled output
 /projects/ngx-file-icons/dist
-/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run

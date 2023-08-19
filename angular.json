@@ -43,5 +43,8 @@
         }
       }
     }},
-  "defaultProject": "ngx-file-icons"
+  "defaultProject": "ngx-file-icons",
+  "cli": {
+    "analytics": "06ea1eb8-790d-42db-bbb9-126456ec5100"
+  }
 }

@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-file-icons
+ */
+export * from './lib/catalog';
+export * from './lib/icon.component';
+export * from './lib/file-icons.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBQ0gsY0FBYyxlQUFlLENBQUM7QUFDOUIsY0FBYyxzQkFBc0IsQ0FBQztBQUNyQyxjQUFjLHlCQUF5QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtZmlsZS1pY29uc1xuICovXG5leHBvcnQgKiBmcm9tICcuL2xpYi9jYXRhbG9nJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2ljb24uY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2ZpbGUtaWNvbnMubW9kdWxlJztcbiJdfQ==

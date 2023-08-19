@@ -5,11 +5,11 @@
   "author": "Chechuck",
   "description": "An angular library to display file icons according to their extension",
   "peerDependencies": {
-    "@angular/common": "^10.2.0",
-    "@angular/core": "^10.2.0"
+    "@angular/common": "^16.1.5",
+    "@angular/core": "^16.1.5"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.5.0"
   },
   "keywords": [
     "angular",
