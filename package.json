@@ -4,49 +4,43 @@
   "license": "MIT",
   "author": "Chechuck",
   "description": "An angular library to display file icons according to their extension",
-  "scripts": {
-    "postinstall": "node postinstall.js",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "ng": "ng"
+  "peerDependencies": {
+    "@angular/common": "^16.1.5",
+    "@angular/core": "^16.1.5"
   },
-  "private": true,
   "dependencies": {
-    "@angular/animations": "16.1.5",
-    "@angular/common": "16.1.5",
-    "@angular/compiler": "16.1.5",
-    "@angular/core": "16.1.5",
-    "@angular/forms": "16.1.5",
-    "@angular/platform-browser": "16.1.5",
-    "@angular/platform-browser-dynamic": "16.1.5",
-    "@angular/router": "16.1.5",
-    "rxjs": "6.6.3",
-    "tslib": "^2.5.0",
-    "zone.js": "0.13.1"
+    "tslib": "^2.5.0"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "16.1.4",
-    "@angular/cli": "16.1.5",
-    "@angular/compiler-cli": "16.1.5",
-    "@types/jasmine": "~3.5.0",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
-    "file-icon-vectors": "^1.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.0.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-firefox-launcher": "^2.0.0",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "ng-packagr": "^16.2.0",
-    "protractor": "~7.0.0",
-    "ts-node": "10.9.1",
-    "eslint": "8.35.0",
-    "typescript": "5.1.6"
+  "keywords": [
+    "angular",
+    "library",
+    "file",
+    "icon",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chechuck/ngx-file-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/Chechuck/ngx-file-icons/issues"
+  },
+  "homepage": "https://github.com/Chechuck/ngx-file-icons",
+  "module": "fesm2022/ngx-file-icons.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-file-icons.mjs",
+      "esm": "./esm2022/ngx-file-icons.mjs",
+      "default": "./fesm2022/ngx-file-icons.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
   }
 }
