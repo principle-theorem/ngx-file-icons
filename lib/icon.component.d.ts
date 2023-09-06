@@ -19,4 +19,3 @@ export declare class IconComponent implements OnInit, OnChanges {
     static ɵfac: i0.ɵɵFactoryDeclaration<IconComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<IconComponent, "file-icon", never, { "set": { "alias": "set"; "required": false; }; "type": { "alias": "type"; "required": false; }; "size": { "alias": "size"; "required": false; }; }, {}, never, never, false, never>;
 }
-//# sourceMappingURL=icon.component.d.ts.map
